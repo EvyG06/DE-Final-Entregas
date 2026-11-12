@@ -1,0 +1,25 @@
+# Terraform: estado, planes y caché local
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+.terraform.tfstate.lock.info
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.tfvars
+*.tfvars.json
+
+# Credenciales
+.aws/
+credentials
+*.pem
+*.key
+.env
+.env.*
+
+# Sistema
+.DS_Store
