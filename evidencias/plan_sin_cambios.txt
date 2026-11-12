@@ -1,0 +1,10 @@
+aws_s3_bucket.datos: Refreshing state... [id=de-final-entregas-evyg06]
+aws_glue_catalog_database.entregas: Refreshing state... [id=726168540074:entregas_db]
+aws_s3_bucket_public_access_block.datos: Refreshing state... [id=de-final-entregas-evyg06]
+aws_athena_workgroup.entregas: Refreshing state... [id=entregas-wg]
+aws_glue_catalog_table.entregas: Refreshing state... [id=726168540074:entregas_db:entregas]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
