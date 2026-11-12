@@ -1,0 +1,47 @@
+{
+  "base_datos": {
+    "sensitive": false,
+    "type": "string",
+    "value": "entregas_db"
+  },
+  "bucket": {
+    "sensitive": false,
+    "type": "string",
+    "value": "de-final-entregas-evyg06"
+  },
+  "bucket_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:s3:::de-final-entregas-evyg06"
+  },
+  "region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-east-1"
+  },
+  "tabla": {
+    "sensitive": false,
+    "type": "string",
+    "value": "entregas"
+  },
+  "tabla_completa": {
+    "sensitive": false,
+    "type": "string",
+    "value": "entregas_db.entregas"
+  },
+  "ubicacion_datos": {
+    "sensitive": false,
+    "type": "string",
+    "value": "s3://de-final-entregas-evyg06/entregas/"
+  },
+  "ubicacion_resultados_athena": {
+    "sensitive": false,
+    "type": "string",
+    "value": "s3://de-final-entregas-evyg06/resultados-athena/"
+  },
+  "workgroup": {
+    "sensitive": false,
+    "type": "string",
+    "value": "entregas-wg"
+  }
+}
