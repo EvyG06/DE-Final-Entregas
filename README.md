@@ -1,4 +1,6 @@
-# Examen final: intentos de entrega en S3, Glue y Athena con partition projection
+# Examen final: Evelyn Gomez
+
+- intentos de entrega en S3, Glue y Athena con partition projection
 
 Los CSV diarios de intentos de entrega quedan en Amazon S3. Una tabla externa en Glue Data Catalog describe su esquema y define partition projection sobre `fecha`, así Athena calcula durante la consulta qué prefijos leer y una fecha nueva se consulta apenas se sube su archivo. No se usan crawlers, `MSCK REPAIR TABLE` ni `ALTER TABLE ADD PARTITION`.
 
